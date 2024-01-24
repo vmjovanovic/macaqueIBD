@@ -4,5 +4,5 @@ The genotyping_bcftools.sh contains script for calling genotypes from high-cover
 
 The downsample.sh contains script for downsampling high-coverage data to low coverage and then impute the low-coverage data using GLIMPSE (starting from line 71).  The same imputation pipeline is used for all the low-coverage data.
 
-
+The bash script processbychr.sh contains commands used for calling IBD using ancIBD. It runs on each of tue 20 autosomes separately.
 
